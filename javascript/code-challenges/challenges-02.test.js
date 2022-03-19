@@ -65,7 +65,7 @@ Write a function named forEachTwoToThe that produces the same output as your for
 
 const forEachTwoToThe = (arr) => {
   let base = 2; 
-  resultArr = []; 
+  let resultArr = []; 
   arr.forEach(element => {
     resultArr.push(base ** element)
   })
