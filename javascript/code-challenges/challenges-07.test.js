@@ -30,10 +30,10 @@ const sortStarWarsCharacters = (starWarsArr) => {
   starWarsArr.sort((a, b) => {
     return (parseInt(b.height) - parseInt(a.height))
   })
-  return starWarsArr; 
+  return starWarsArr;   
 };
 
-/* ------------------------------------------------------------------------------------------------
+/* //------------------------------------------------------------------------------------------------
 CHALLENGE 2
 
 Write a function named removeThree that takes an index and an array. The function should removes three items in the array starting with the value at the index.
