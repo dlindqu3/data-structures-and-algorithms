@@ -25,10 +25,12 @@ let starWarsPeople = [
 ];
 
 const sortStarWarsCharacters = (starWarsArr) => {
-  // starWarsArr.sort((a, b) => {
-  //   return (b.height - a.height)
-  // })
-  // return starWarsArr; 
+
+
+  starWarsArr.sort((a, b) => {
+    return (parseInt(b.height) - parseInt(a.height))
+  })
+  return starWarsArr; 
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -68,8 +70,8 @@ For example, if the input is 'Welcome', the output will be:
 
 const howMuchPencil = (str) => {
   let result = [];
-  for (let i = str.length; i > -1; i--){
-    result.push(str.slice(0, i));
+  for (let i = 0; i < str.length +1; i++){
+    result.push(str.slice(i));
   }
   return result;
 };
