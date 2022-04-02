@@ -22,11 +22,8 @@ function lower(str) {
 }
 
 const updateAnimal = (arr, callback) => {
-  let result = []; 
-  for (let i = 0; i < arr.length; i++){
-    result.push(callback(arr[i])); 
-  }
-  return result; 
+  let newArr = arr.map((element) => callback(element));
+ return newArr; 
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -38,11 +35,8 @@ For example: 'Cat' would come before 'apple'
 ------------------------------------------------------------------------------------------------ */
 
 const sortNames = (arr) => {
-  let result = arr.sort((a,b) => {
-    if (a < b) return -1; 
-    if (a > b) return 1; 
-    return 0; 
-  })
+  arr.sort(); 
+  return arr; 
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -54,7 +48,7 @@ HINT: Beware... JS default is "Lexical" ordering.
 ------------------------------------------------------------------------------------------------ */
 
 const sortNumbers = (arr) => {
-  // Solution code here...
+  return arr.sort((a, b) => a - b); 
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -66,7 +60,7 @@ HINT: Do it with a custom sort callback, not with using `.reverse()`. ;)
 ------------------------------------------------------------------------------------------------ */
 
 const sortBackwards = (arr) => {
-  // Solution code here...
+  return arr.sort((a, b) => b - a);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -80,7 +74,7 @@ For example, ['Alphabet', 'Zebra', 'alphabet', 'carrot'] is correctly sorted.
 ------------------------------------------------------------------------------------------------ */
 
 const alphabetize = (arr) => {
-  // Solution code here...
+return arr.sort(); 
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -97,7 +91,9 @@ Here is an example of the input:
 ------------------------------------------------------------------------------------------------ */
 
 const sortByPrice = (arr) => {
-  // Solution code here...
+  return arr.sort((objA, objB) => {
+    return objA.price - objB.price
+  }); 
 };
 
 /* ------------------------------------------------------------------------------------------------
