@@ -21,3 +21,5 @@ To run your tests
 ### 401 Data Structures, Code Challenges
 
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+
+### Code Challenge 1: array-reverse  [link](https://github.com/dlindqu3/data-structures-and-algorithms/blob/main/python/docs/array-reverse/README.md)
