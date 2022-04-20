@@ -5,4 +5,4 @@
 ![alt whiteboard](array-binary-search.png)
 
 ## Approach & efficiency
-- I used a while loop approach because it's efficient, the Big O is log(N)
+- I used a while loop approach because it's efficient, the Big O is log(N).
