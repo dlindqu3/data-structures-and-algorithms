@@ -79,3 +79,4 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 
 ### Code Challenge 1: array-reverse  [link](https://github.com/dlindqu3/data-structures-and-algorithms/blob/main/python/docs/array-reverse/README.md)
 ### Code Challenge 2: array-insert-shift [link](https://github.com/dlindqu3/data-structures-and-algorithms/tree/main/python/docs/array-insert-shift)
+### Code Challenge 3: array-binary-search [link](https://github.com/dlindqu3/data-structures-and-algorithms/blob/main/python/docs/array-binary-search/README.md)
